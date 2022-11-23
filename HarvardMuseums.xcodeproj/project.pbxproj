@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657C92B8292554D50018378D /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657C92B7292554D50018378D /* TabBarCoordinator.swift */; };
 		65E14BBA291BFD5E00C3B785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E14BB9291BFD5E00C3B785 /* AppDelegate.swift */; };
 		65E14BBC291BFD5E00C3B785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E14BBB291BFD5E00C3B785 /* SceneDelegate.swift */; };
 		65E14BBE291BFD5E00C3B785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E14BBD291BFD5E00C3B785 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		657C92B7292554D50018378D /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		65E14BB6291BFD5E00C3B785 /* HarvardMuseums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarvardMuseums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E14BB9291BFD5E00C3B785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65E14BBB291BFD5E00C3B785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657C92B2292539230018378D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				657C92B7292554D50018378D /* TabBarCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		65E14BAD291BFD5E00C3B785 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		65E14BB8291BFD5E00C3B785 /* HarvardMuseums */ = {
 			isa = PBXGroup;
 			children = (
+				657C92B2292539230018378D /* Coordinator */,
 				65E14BB9291BFD5E00C3B785 /* AppDelegate.swift */,
 				65E14BBB291BFD5E00C3B785 /* SceneDelegate.swift */,
 				65E14BBD291BFD5E00C3B785 /* ViewController.swift */,
@@ -257,6 +268,7 @@
 				65E14BBE291BFD5E00C3B785 /* ViewController.swift in Sources */,
 				65E14BBA291BFD5E00C3B785 /* AppDelegate.swift in Sources */,
 				65E14BBC291BFD5E00C3B785 /* SceneDelegate.swift in Sources */,
+				657C92B8292554D50018378D /* TabBarCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
